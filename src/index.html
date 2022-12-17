@@ -24,10 +24,9 @@
             type="text"
             name="surname"
             autocomplete="off"
-            class="form-field"
             required
           >
-        </label> <br>
+        </label>
 
         <label class="form-field">
           Name:
@@ -35,10 +34,9 @@
             type="text"
             name="name"
             autocomplete="off"
-            class="form-field"
             required
           >
-        </label> <br>
+        </label>
 
         <label class="form-field">
           How old are You?
@@ -48,19 +46,17 @@
             min="1"
             max="100"
             value="12"
-            class="form-field"
             required
           >
-        </label> <br>
+        </label>
 
         <label class="form-field">
           Full date of birth:
           <input
             type="date"
             name="dateOfBirth"
-            class="form-field"
           >
-        </label> <br>
+        </label>
 
         <label>
           I accept the term of the agreement
@@ -68,7 +64,7 @@
             type="checkbox"
             name="terms"
           >
-        </label> <br>
+        </label>
       </fieldset>
 
       <fieldset class="fieldset">
@@ -80,10 +76,9 @@
             type="email"
             name="email"
             placeholder="email@example.com"
-            class="form-field"
             required
           >
-        </label> <br>
+        </label>
 
         <label>
           Password:
@@ -94,7 +89,7 @@
             maxlength="15"
             required
           >
-        </label> <br>
+        </label>
       </fieldset>
 
       <fieldset class="fieldset">
@@ -127,9 +122,8 @@
             type="color"
             name="color"
             value="black"
-            class="form-field"
           >
-        </label> <br>
+        </label>
 
         <label class="form-field">
           What time do you go to bed?
@@ -137,15 +131,13 @@
             type="time"
             name="timeSleep"
             step="1"
-            class="form-field"
           >
-        </label> <br>
+        </label>
 
         <label class="form-field">
           What are your favorite brand of cars?
           <select
             name="cars"
-            class="form-field"
             required
             multiple
           >
@@ -153,12 +145,12 @@
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
             <option
-            value="   "
-            disabled
+              value="   "
+              disabled
             >
             </option>
           </select>
-        </label> <br>
+        </label>
 
         <label>
           How do you rate our work?
@@ -167,10 +159,10 @@
             name="rateOfWork"
             value="0"
           >
-        </label> <br>
+        </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Additional info:</legend>
 
         <label class="form-field">
@@ -180,18 +172,17 @@
             cols="10"
             rows="2"
             autocomplete="off"
-            class="form-field"
           >
           </textarea>
-        </label> <br>
+        </label>
 
-        <label>
+        <label class="form-field">
           Would you recommend us?
-          <select name="recommend" class="form-field-last">
+          <select name="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
-        </label> <br>
+        </label>
       </fieldset>
 
       <button type="submit">Submit</button>

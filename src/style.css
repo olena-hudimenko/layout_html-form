@@ -1,8 +1,16 @@
 .fieldset {
   margin-bottom: 20px;
-  /* padding-bottom: 4px; */
 }
 
 .form-field {
   margin-bottom: 10px;
+  display: block;
+}
+
+fieldset:last-child {
+  margin-bottom: auto;
+}
+
+label:last-child {
+  margin-bottom: auto;
 }
